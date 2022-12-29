@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/expense"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Day                :"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:id="@+id/eday"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Breakfast      :"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:id="@+id/ebreakfast"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Lunch            :"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:id="@+id/elunch"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Vehicle Fee :"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:id="@+id/evehicle"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Others          :"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:id="@+id/eothers"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Total Expense"
+            android:id="@+id/bttotal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Home"
+                android:id="@+id/bhome"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Summary"
+                android:id="@+id/bsum"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
